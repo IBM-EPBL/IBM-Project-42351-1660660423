@@ -1,0 +1,17 @@
+body
+{
+background-color:#E6E6FA;
+display:flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+font-family: "Times New Roman", Times, serif;
+}
+
+img
+{
+height:240px;
+border-radius:10px;
+margin:10px;
+}
+
