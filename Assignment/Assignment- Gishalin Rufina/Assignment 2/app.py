@@ -1,5 +1,5 @@
 from flask import Flask, url_for, render_template
-from werkzeug.utils import secure_filename
+
 import sqlite3 as sql
 
 
