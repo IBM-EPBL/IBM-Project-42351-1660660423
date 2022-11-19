@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+   <body>
+
+   
+
+    {{ msg }}
+
+      <table border = 1>
+         <thead>
+            <td>FirstName</td>
+            <td> MiddleName</td>
+            <td>LastName</td>
+            <td>PhoneNumber</td>
+             <td>Address</td>
+            <td>Email</td>
+            <td>Password</td>
+         </thead>
+         
+         {% for row in User_Details %}
+            <tr>
+               <td>{{row["FirstName"]}}</td>
+               <td>{{row["MiddleName"]}}</td>
+               <td> {{ row["LastName"]}}</td>
+               <td>{{row["PhoneNumber"]}}</td>	
+               <td>{{row["Address"]}}</td>
+               <td>{{row["Email"]}}</td>
+                <td>{{row["Password"]}}</td>
+            </tr>
+         {% endfor %}
+      </table>
+     
+
+   </body>
+</html>
